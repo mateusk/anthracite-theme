@@ -1,0 +1,21 @@
+{
+  "name": "anthracite-theme",
+  "displayName": "Anthracite Theme",
+  "publisher": "knelsen",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Anthracite Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/anthracite-color-theme.json"
+      }
+    ]
+  }
+}
