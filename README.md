@@ -1,12 +1,6 @@
 # Anthracite Custom
 
-A personal VS Code color theme, built to match the colors of [Bearded Theme's](https://github.com/BeardedBear/bearded-theme) **Anthracite** variant, with fixes for rendering issues in VS Code's newer UI.
-
-## Why this exists
-
-The original [Bearded Theme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme) Anthracite theme has some rendering issues with VS Code's modern UI. This is a from-scratch theme using the same color palette, rebuilt with full coverage of current theme color keys (activity bar, command center, semantic tokens, bracket pair colors, etc.).
-
-> **Note:** If parts of the UI (activity bar, status bar, title bar) still look transparent or ignore theme colors, that's very likely [a VS Code bug](https://github.com/microsoft/vscode/issues/326126) in "modern UI" (floating panels) mode, not this theme — VS Code forces those backgrounds transparent in that mode regardless of theme. Try disabling floating panels if you see this.
+A personal VS Code color theme.
 
 ## Installation
 
