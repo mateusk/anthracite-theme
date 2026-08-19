@@ -251,9 +251,118 @@
     "extensionButton.prominentForeground": "#181a1f",
     "extensionButton.prominentHoverBackground": "#c8ccd4"
   },
+
   "tokenColors": [
     {
       "settings": { "foreground": "#c8ccd4" }
+    },
+    {
+      "scope": "entity.name.tag.script.html.vue",
+      "settings": { "foreground": "#3398DB" }
+    },
+    {
+      "scope": "entity.name.tag.template.html.vue",
+      "settings": { "foreground": "#57D0A8" }
+    },
+    {
+      "scope": "entity.name.tag.html",
+      "settings": { "foreground": "#368c6c" }
+    },
+    {
+      "scope": "support.class.component.vue",
+      "settings": { "foreground": "#57D0A8" }
+    },
+    {
+      "scope": "entity.other.attribute-name.html",
+      "settings": { "foreground": "#6c6970" }
+    },
+    {
+      "scope": "meta.attribute.class.html string.quoted.double.html",
+      "settings": { "foreground": "#C3A229" }
+    },
+    {
+      "scope": ["text.html.derivative", "text.html.vue"],
+      "settings": { "foreground": "#989dab" }
+    },
+    {
+      "scope": "storage.type.ts",
+      "settings": { "foreground": "#4561ff" }
+    },
+    {
+      "scope": "entity.name.tag.style.html.vue",
+      "settings": { "foreground": "#C3A229" }
+    },
+    {
+      "scope": "support.type.property-name.css",
+      "settings": { "foreground": "#6c6970" }
+    },
+    {
+      "scope": "constant.numeric.css",
+      "settings": { "foreground": "#E06C75" }
+    },
+    {
+      "scope": "keyword.other.unit.percentage.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.px.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.em.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.rem.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.vh.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.vw.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.fr.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.vmin.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.vmax.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.deg.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.rad.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.grad.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "keyword.other.unit.turn.css",
+      "settings": { "foreground": "#3dcda0" }
+    },
+    {
+      "scope": "support.function.misc.css",
+      "settings": { "foreground": "#369BFF" }
+    },
+    {
+      "scope": "support.function.calc.css",
+      "settings": { "foreground": "#369BFF" }
+    },
+    {
+      "scope": ["variable.argument.css", "meta.function.variable.css"],
+      "settings": { "foreground": "#d65461" }
     },
     {
       "scope": ["comment", "punctuation.definition.comment"],
@@ -261,7 +370,7 @@
     },
     {
       "scope": ["string", "string.quoted", "string.template"],
-      "settings": { "foreground": "#7E9E2D" }
+      "settings": { "foreground": "#c8ccd4" }
     },
     {
       "scope": ["constant.numeric", "constant.language", "constant.character"],
@@ -294,6 +403,49 @@
     },
     {
       "scope": [
+        "text.html.vue source.ts variable.other.readwrite.ts",
+        "text.html.vue source.ts variable.other.constant.ts",
+        "text.html.vue source.ts variable.other.object.ts",
+        "text.html.vue source.js variable.other.readwrite.js",
+        "text.html.vue source.js variable.other.constant.js",
+        "text.html.vue source.js variable.other.object.js",
+        "source.ts.embedded.html.vue variable.other.readwrite.ts",
+        "source.ts.embedded.html.vue variable.other.constant.ts",
+        "source.ts.embedded.html.vue variable.other.object.ts",
+        "source.js.embedded.html.vue variable.other.readwrite.js",
+        "source.js.embedded.html.vue variable.other.constant.js",
+        "source.js.embedded.html.vue variable.other.object.js"
+      ],
+      "settings": { "foreground": "#79b9db" }
+    },
+    {
+      "scope": [
+        "text.html.vue source.ts variable.other.property.ts",
+        "text.html.vue source.ts variable.other.object.property.ts",
+        "text.html.vue source.ts meta.object-literal.key.ts",
+        "text.html.vue source.js variable.other.property.js",
+        "text.html.vue source.js variable.other.object.property.js",
+        "text.html.vue source.js meta.object-literal.key.js",
+        "source.ts.embedded.html.vue variable.other.property.ts",
+        "source.ts.embedded.html.vue variable.other.object.property.ts",
+        "source.ts.embedded.html.vue meta.object-literal.key.ts",
+        "source.js.embedded.html.vue variable.other.property.js",
+        "source.js.embedded.html.vue variable.other.object.property.js",
+        "source.js.embedded.html.vue meta.object-literal.key.js"
+      ],
+      "settings": { "foreground": "#6499b5" }
+    },
+    {
+      "scope": [
+        "text.html.vue source.ts variable.parameter.ts",
+        "text.html.vue source.js variable.parameter.js",
+        "source.ts.embedded.html.vue variable.parameter.ts",
+        "source.js.embedded.html.vue variable.parameter.js"
+      ],
+      "settings": { "foreground": "#E0A26C" }
+    },
+    {
+      "scope": [
         "entity.name.type",
         "entity.name.class",
         "entity.other.inherited-class",
@@ -312,7 +464,7 @@
     },
     {
       "scope": ["keyword.operator"],
-      "settings": { "foreground": "#c8ccd4" }
+      "settings": { "foreground": "#CC71BC" }
     },
     {
       "scope": [
@@ -351,14 +503,17 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "comment": "#515766",
-    "string": "#7E9E2D",
+    "string": "#c8ccd4",
     "keyword": "#CC71BC",
-    "number": "#935cd1",
+    "number": "#E06C75",
     "function": "#3398DB",
     "method": "#3398DB",
-    "variable": "#acb1bd",
-    "parameter": "#acb1bd",
+    "variable": "#79b9db",
+    "variable:vue": "#79b9db",
+    "parameter": "#E0A26C",
+    "parameter:vue": "#E0A26C",
     "property": "#acb1bd",
+    "property:vue": "#6499b5",
     "class": "#24B5A8",
     "interface": "#24B5A8",
     "enum": "#24B5A8",
